@@ -1,0 +1,38 @@
+.form-control:focus {
+    color: #6c757d;
+    background-color: #fff;
+    border-color: #0789e5;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(74 195 242 / 25%);
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #23b8ff;
+    border-color: #0785c1;
+    position: relative !important;
+    top: -40% !important;
+    margin-top: 4%;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #055cad !important;
+    border-color: #0285ff !important;
+}
+
+.noUi-connect {
+    background: #23b8ff;
+}
+
+.noUi-handle {
+    border: transparent;
+    border-radius: 100%;
+    background: #212529;
+    cursor: default;
+    box-shadow: none;
+}
+
+.nav-header.header-white .navbar .nav-link {
+    color: #000;
+}

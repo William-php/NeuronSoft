@@ -1,0 +1,27 @@
+#nameHomeService {
+    color : #23b8ff;
+}
+
+@media (min-width: 992px){
+  #centerText  {
+        padding-top: 9.5rem!important;
+        padding-bottom: 9.5rem!important;
+        position: absolute !important;
+    }
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #23b8ff;
+    border-color: #0785c1;
+    position: relative !important;
+    top: -40% !important;
+    margin-top: 4%;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #055cad !important;
+    border-color: #0285ff !important;
+}
+

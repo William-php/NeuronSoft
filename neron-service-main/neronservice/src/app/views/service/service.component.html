@@ -1,0 +1,77 @@
+<div class="nav-header nav-header-classic menu-space header-position header-white">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-expand-lg">
+                    <a class="navbar-brand" href=""></a>
+                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-lg-3">
+                            <li class="nav-item">
+                                <a class="nav-link" href="" routerLink="/">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./docs/index.html">Sobre</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/">Termos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="pb-lg-12 pb-7">
+    <div class="container">
+        <div class="row">
+        </div>
+        <div class="row justify-content-center mt-8">
+            <div class="col-lg-8 col-md-12 col-12">
+                <div>
+                    <h2 class="mb-5">Envie sua proposta para nossa equipe 😃!</h2>
+                    <!-- form -->
+                    <form class="row needs-validation" novalidate="">
+                        <!-- first name -->
+                        <div class="mb-3 col-md-6">
+                            <label for="fname" class="form-label">Primeiro nome <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" id="fname" placeholder="First Name" required="">
+                            <div class="invalid-feedback">
+                                Please write a firstname.
+                            </div>
+                        </div>
+                        <!-- last name -->
+                        <div class="mb-3 col-md-6">
+                            <label for="lname" class="form-label">Segundo nome <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" id="lname" placeholder="Last Name" required="">
+                            <div class="invalid-feedback">
+                                Please write a lastname.
+                            </div>
+                        </div>
+                        <div class="mb-3 col-md-9">
+                            <label for="lname" class="form-label">Preço<span class="text-danger">*</span></label>
+                            <input type="range" class="form-range" id="customRange1" min=500 max=5000 step="0.01" (change)="atribuirValor(valor1.value)" #valor1>
+                            <span>R${{ valor }}</span>
+                        </div>
+                        <!--button class="btn" (click)="verValor()">Clique</!--button-->
+                        <!-- message -->
+                        <div class="mb-3 col-md-12">
+                            <label for="message" class="form-label">Mensagem<span class="text-danger">*</span></label>
+                            <textarea class="form-control " rows="3" placeholder="Message" id="message"></textarea>
+
+                        </div>
+                        <!-- button -->
+                        <div class="col-md-12">
+                            <button class="btn btn-primary" type="submit">Send message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
